@@ -5,7 +5,7 @@
 
 硬件连接如图所示:
 
-- `TELEM 2`: 默认作为控制台**Console**的输出，默认波特率*57600*。如果在**Mavlink Console**中输入任意字符，则**Console**将被自动映射到**Mavlink Console**上。
+- `TELEM 2`: 默认作为控制台**Console**的输出，默认波特率*57600*。如果在**Mavlink Console**中输入任意字符，则控制台将被自动映射到**Mavlink Console**上。
 - `TELEM 1`: 默认作为**Mavlink**的输出口，默认波特率*57600*。如果**USB**连接的话，则**Mavlink**则自动换到到**USB**设备上输出。
 - `GPS`: 连接GPS模块，默认波特率*9600*。
 - `RC`: 连接遥控器的*PPM*信号,目前最多支持8路PPM信号。
@@ -55,7 +55,7 @@ FMT包含FMU (Flight Management Uinit) 固件和IO (Input/Output)固件，需要
 
 ![qgc_download](img/qgc_download.png)
 
-固件下载成功后，可以使用串口(**TELEM 2, baudrate: 57600**)或者QGC的**Mavlink Console**连接控制台(console)，如下图所示为飞控开机打印的信息：
+固件下载成功后，可以使用串口(**TELEM 2, baudrate: 57600**)或者QGC的**Mavlink Console**连接控制台，如下图所示为飞控开机打印的信息：
 
 ![console](img/console.png)
 

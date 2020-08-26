@@ -2,6 +2,8 @@ site_name: Firmament Autopilot
 repo_url: https://github.com/FirmamentPilot/doc_src
 nav:
 - 概述: index.md
+- FMT固件: fmt_firmware.md
+- FMT模型: fmt_model.md
 - 快速上手: getting_started.md
 - 设备和驱动: device.md
 - 组件: module.md
